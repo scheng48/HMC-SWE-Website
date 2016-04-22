@@ -49,11 +49,11 @@ p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
-    font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 ul {
-    font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 #calendar {
@@ -62,12 +62,17 @@ ul {
 }
 
 .bg-primary {
-    background-color: #0f3e54;
+    background-color: #0e3d73;
 }
 
 .bg-dark {
     color: #fff;
     background-color: #222;
+}
+
+.bg-lite{
+    background-color: #77caff;
+    color: #000;
 }
 
 .text-faded {
@@ -186,7 +191,7 @@ header {
     width: 100%;
     text-align: center;
     color: #fff;
-    background-color: #b2cede;
+    background-color: #1455b6;
     background-position: center;
     padding-top: 8%;
 }
@@ -418,4 +423,19 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.title-img {
+    width: 33%;
+    background-color: #1455b6;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.side-col-img{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    text-align: left;
 }
