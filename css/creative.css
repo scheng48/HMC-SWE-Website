@@ -274,6 +274,7 @@ header .header-content .header-content-inner p {
     margin: auto;
     position: relative;
     padding: auto;
+    display: inline-block;
 }
 
 .member-name {
