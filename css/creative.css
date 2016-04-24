@@ -636,3 +636,8 @@ body {
     text-align: center;
   }
 }  
+
+
+.contained-img {
+    width: 100%;
+}
